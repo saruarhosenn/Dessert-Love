@@ -1,0 +1,435 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+/*
+======================================
+Reuseble Code
+======================================
+*/
+section {
+	padding: 80px 0;
+}
+
+h1,
+h2,
+h3,
+p {
+	color: #212529;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+p {
+	font-size: 17px;
+}
+
+img {
+	width: 100%;
+}
+
+.container {
+	width: 85%;
+	margin: auto;
+}
+
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	margin-right: -20px;
+	margin-left: -20px;
+}
+
+.article-50,
+.article-33,
+.article-25 {
+	padding: 20px;
+}
+
+.article-50 {
+	width: 50%;
+}
+
+.article-33 {
+	width: 33.33%;
+}
+
+.article-25 {
+	width: 25%;
+}
+
+.divider {
+	width: auto !important;
+}
+
+.btn {
+	background: -webkit-gradient(linear, left top, right top, from(#FBA24F), to(#FF1E1E));
+	background: -o-linear-gradient(left, #FBA24F, #FF1E1E);
+	background: linear-gradient(to right, #FBA24F, #FF1E1E);
+	font-weight: 500;
+	color: #FFFFFF;
+	padding: 12px 30px;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+	        box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+}
+
+.highlight-text {
+	color: #FF1E1E;
+}
+
+.title {
+	max-width: 706px;
+	margin: 0 auto 30px;
+	text-align: center;
+}
+
+.title p {
+	margin: 15px 0 35px;
+}
+
+.title img {
+	width: 60px;
+	margin: auto;
+}
+
+.link-btn {
+	text-align: center;
+	margin-top: 50px;
+}
+
+/*
+======================================
+Reuseble Code
+======================================
+*/
+
+
+/*
+======================================
+Start Header Section
+======================================
+*/
+header {
+	background: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+.header-title h1 {
+	font-size: 50px;
+}
+
+.header-title p {
+	margin: 20px 0 30px;
+}
+
+/*
+======================================
+End Header Section
+======================================
+*/
+
+
+/*
+======================================
+Start Welcome Section
+======================================
+*/
+.welcome-section {
+	background: url(../images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.welcome-content h3 {
+	margin: 10px 0 30px;
+}
+
+.welcome-content .p2-desc {
+	margin-top: 25px;
+}
+
+.welcome-img img {
+	border: 10px solid #F8F7F8;
+	border-radius: 4px;
+}
+
+/*
+======================================
+End Welcome Section
+======================================
+*/
+
+
+/*
+======================================
+Start Dishes Section
+======================================
+*/
+.dishes-content {
+	padding: 20px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+	        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.dishes-img img {
+	border-radius: 30px;
+}
+
+.dishes-desc {
+	text-align: center;
+}
+
+.dishes-desc .dishes-desc-title {
+	margin: 15px 0;
+}
+
+.dishes-desc p {
+	margin-bottom: 15px;
+}
+
+/*
+======================================
+End Dishes Section
+======================================
+*/
+
+
+/*
+======================================
+Start User Section
+======================================
+*/
+.food-menu-section {
+	background: #F8F7F8;
+}
+
+.flex-box {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.flex-box .column {
+	padding: 10px;
+}
+
+.f-menu-content {
+	background: #FFFFFF;
+	padding: 25px;
+	border-radius: 6px;
+	-webkit-box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+	        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 190px
+}
+
+.f-menu-content .f-menu-img {
+	margin-right: 20px;
+}
+
+.f-menu-content .f-menu-img img {
+	width: auto;
+}
+
+.f-menu-desc h4 {
+	font-size: 16px;
+}
+
+.f-menu-desc p {
+	margin: 5px 0;
+}
+
+/*
+======================================
+Start User Section
+======================================
+*/
+
+
+/*
+======================================
+Start Our-Masters Section
+======================================
+*/
+.master-box {
+	padding: 20px;
+	-webkit-box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+	        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.master-box .master-name {
+	text-align: center;
+}
+
+.master-box .master-name h4 {
+	margin: 10px 0 5px;
+}
+
+/*
+======================================
+Start Our-Masters Section
+======================================
+*/
+
+
+/*
+======================================
+Start Newsletter Section
+======================================
+*/
+.newsletter {
+	background: #F8F7F8;
+}
+
+.newsletter form {
+	margin: auto;
+}
+
+.newsletter-fild {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.newsletter-fild input {
+	width: 70%;
+	padding: 20px 15px;
+	background: #FFFFFF;
+	font-size: 18px;
+}
+
+.newsletter-fild button {
+	width: 30%;
+	padding: 20px 0;
+	background: #FF1E1E;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.newsletter-fild input,
+.newsletter-fild button {
+	border: 0;
+	outline: 0;
+	-webkit-box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+	        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+/*
+======================================
+Start Newsletter Section
+======================================
+*/
+
+
+/*
+======================================
+Start User Section
+======================================
+*/
+.user-section {
+	background: url(../images/bg3.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	padding: 120px 0;
+}
+
+.user-box {
+	border-radius: 20px;
+	padding: 50px 0;
+	-webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+	        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+	background: #FFFFFF;
+}
+
+.user-text {
+	text-align: center;
+}
+
+.user-text h2 {
+	margin-bottom: 10px;
+}
+
+/*
+======================================
+Start User Section
+======================================
+*/
+
+
+/*
+======================================
+Start Footer Section
+======================================
+*/
+footer {
+	background: #212529;
+	padding: 70px 0 20px;
+}
+
+.footer-content {
+	text-align: center;
+}
+
+.footer-content img {
+	width: 200px;
+	margin: auto;
+}
+
+.footer-content p {
+	color: #FFFFFF;
+}
+
+.footer-content hr {
+	margin: 60px 0 20px;
+	border-bottom: 1px solid #989898;
+}
+
+/*
+======================================
+End Footer Section
+======================================
+*/
